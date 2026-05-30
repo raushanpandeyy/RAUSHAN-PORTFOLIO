@@ -56,9 +56,9 @@ export default function ContactSection() {
         emailjsConfig.serviceId,
         emailjsConfig.templateId,
         {
-          from_name: form.name,
-          from_email: form.email,
-          message: form.message,
+          name: form.name,
+          email: form.email,
+          title: form.message,
         },
         emailjsConfig.publicKey,
       );
