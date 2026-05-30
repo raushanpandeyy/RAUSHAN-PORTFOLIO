@@ -4,9 +4,9 @@ import SectionShell from "../../components/common/SectionShell";
 const categories = [
   ["Frontend", [["React", 92], ["JavaScript", 90], ["Tailwind", 88]]],
   ["Backend", [["Node.js", 84], ["Express", 82], ["REST APIs", 86]]],
-  ["Database", [["MongoDB", 82], ["PostgreSQL", 74]]],
+  ["Database", [["PostgreSQL", 74]]],
   ["AI", [["Voice AI", 78], ["Automation", 80], ["Prompting", 84]]],
-  ["Languages", [["Java", 78], ["C", 70], ["Python", 82]]],
+  ["Languages", [["Java", 50], ["C", 70], ["Python", 82]]],
 ];
 
 function SkillCube({ name, level, index }) {

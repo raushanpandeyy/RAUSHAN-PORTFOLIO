@@ -64,7 +64,8 @@ export default function ContactSection() {
       );
       setStatus("sent");
       setForm({ name: "", email: "", message: "" });
-    } catch {
+    } catch (err) {
+      console.error("EmailJS error:", err);
       setStatus("error");
     }
   };
